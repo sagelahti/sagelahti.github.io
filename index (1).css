@@ -1,0 +1,90 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 1300px;
+       height: 100%;
+       background:fixed url(http://2.design-milk.com/images/2012/03/Forsyth-4-dark_watercolor_003.jpg);
+       border:20px;
+    }
+
+a:link {
+  color: yellow;
+    }
+
+a:visited {
+  color: yellow;
+    }
+
+a:hover {
+  color: green;
+    }
+
+a:active {
+  color: green;
+    }
+
+
+
+    header {
+        background: url(http://2.design-milk.com/images/2012/03/Forsyth-4-dark_watercolor_003.jpg);
+        padding: 15px;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        border: 5px solid #000000;
+        margin: 20px;
+    }
+    nav {
+        float: center;
+    }
+    nav ul {
+        padding: 10px;
+        float: left;
+        border-bottom: 50px;
+        list-style-type: none;
+    }
+    nav li {
+        float: center;
+    }
+    nav li a {
+        display: block;
+        height: 50px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 600px;
+        display: inline-block;
+        float: center;
+    }
+    article {
+        width: 170%;
+        color: #ffffff;
+        display: inline-block;
+        background-color:#000000;
+        padding:20px;
+        min-height: 100%;
+        flex-wrap: wrap;
+    }
+
+    div {display:inline;
+    }
+
+    aside ul {
+        list-style-type: ;
+    }
+    footer {
+        width: 100px;
+        background-color:#ffffff;
+        color:#000000;
+        clear: both;
+        display: block;
+    }
